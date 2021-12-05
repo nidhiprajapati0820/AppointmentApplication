@@ -1,0 +1,54 @@
+
+<web-app>
+
+
+	<servlet>
+		<servlet-name>pregister</servlet-name>
+		<servlet-class>com.jnit1.PatientRegister</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>pregister</servlet-name>
+		<url-pattern>/patientregister</url-pattern>
+
+	</servlet-mapping>
+
+
+	<servlet>
+
+		<servlet-name>plogin</servlet-name>
+		<servlet-class>com.jnit1.Patientlogin</servlet-class>
+
+	</servlet>
+
+
+
+	<servlet-mapping>
+
+		<servlet-name>plogin</servlet-name>
+		<url-pattern>/patientlogin</url-pattern>
+
+	</servlet-mapping>
+
+
+
+	<servlet>
+
+		<servlet-name>dregister</servlet-name>
+		<servlet-class>com.jnit1.DoctorRegister</servlet-class>
+
+	</servlet>
+
+
+
+	<servlet-mapping>
+
+		<servlet-name>dregister</servlet-name>
+
+		<url-pattern>/doctorRegister</url-pattern>
+
+	</servlet-mapping>
+
+</web-app>
